@@ -32,7 +32,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         
         <motion.img
-          src="/Images/About_Section.png"
+          src="/images/About_Section.png"
           alt="About Webworks by Arnav"
           className="rounded-2xl shadow-lg hover:scale-[1.02] transition-transform duration-300"
           initial={{ opacity: 0, x: -50 }}
