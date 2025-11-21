@@ -1,16 +1,14 @@
-
-
 import { motion } from 'framer-motion';
 
 const projects = [
-    // Ensure these paths are correct relative to your public folder (remove the space)
-    { title: 'SaaS Landing', tag: 'Landing Page', img: 'public/Images /SaasLanding.png' },
-    { title: 'Bakery Website', tag: 'Small Business', img: 'public/Images /Cafe.png' },
-    { title: 'Yoga Studio', tag: 'Local Business', img: 'public/Images /Yoga.png' },
-    { title: 'E-Commerce Store', tag: 'Online Shop', img: 'public/Images /E-Commerence.png' },
+
+    { title: 'SaaS Landing', tag: 'Landing Page', img: '/Images/SaasLanding.png' },
+    { title: 'Bakery Website', tag: 'Small Business', img: '/Images/Cafe.png' },
+    { title: 'Yoga Studio', tag: 'Local Business', img: '/Images/Yoga.png' },
+    { title: 'E-Commerce Store', tag: 'Online Shop', img: '/Images/E-Commerence.png' },
 ];
 
-// Reusing your existing framer-motion variants for consistent animation
+
 const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -51,14 +49,12 @@ export default function Projects() {
                             variants={itemVariants}
                             whileHover={{ scale: 1.03 }} // Subtle lift on hover
                             transition={{ type: "spring", stiffness: 300 }}
-
                             className="group relative p-px rounded-2xl overflow-hidden shadow hover:shadow-xl transition duration-300"
                         >
 
                             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
                             <div className="relative bg-white h-full flex flex-col rounded-[calc(1rem-1px)]">
-
                                 <img src={p.img} alt={p.title} className="w-full h-52 object-cover" />
                                 <div className="p-5 text-left flex flex-col flex-grow">
                                     <span className="text-xs text-primary font-medium">{p.tag}</span>
