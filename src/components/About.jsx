@@ -1,6 +1,4 @@
-
 import { motion } from 'framer-motion';
-
 
 const containerVariants = {
   hidden: {},
@@ -32,7 +30,7 @@ export default function About() {
       className="py-24 bg-gray-50  transition-colors duration-500"
     >
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-        {/* Added animation to the image as well */}
+        
         <motion.img
           src="/Images/About_Section.png"
           alt="About Webworks by Arnav"

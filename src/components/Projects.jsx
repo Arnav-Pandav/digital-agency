@@ -1,12 +1,15 @@
 import { motion } from 'framer-motion';
 
-const projects = [
 
-    { title: 'SaaS Landing', tag: 'Landing Page', img: '/Images/SaasLanding.png' },
-    { title: 'Bakery Website', tag: 'Small Business', img: '/Images/Cafe.png' },
-    { title: 'Yoga Studio', tag: 'Local Business', img: '/Images/Yoga.png' },
-    { title: 'E-Commerce Store', tag: 'Online Shop', img: '/Images/E-Commerence.png' },
+
+const projects = [
+  { title: 'SaaS Landing', tag: 'Landing Page', img: '/Images/SaasLanding.png' },
+  { title: 'Bakery Website', tag: 'Small Business', img: '/Images/Cafe.png' },
+  { title: 'Yoga Studio', tag: 'Local Business', img: '/Images/Yoga.png' },
+  { title: 'E-Commerce Store', tag: 'Online Shop', img: '/Images/E-Commerce.png' },
 ];
+
+
 
 
 const containerVariants = {
