@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 
+
 const projects = [
   { title: 'SaaS Landing', tag: 'Landing Page', img: '/Images/SaasLanding.png' },
   { title: 'Bakery Website', tag: 'Small Business', img: '/Images/Cafe.png' },
